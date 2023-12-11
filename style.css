@@ -1,0 +1,182 @@
+#top ul {
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+#top li {
+    display: inline;
+    padding: 0 5px;
+}
+#top a {
+    text-decoration: none;
+    color: gray;
+}
+header {
+    text-align: center;
+    padding-top: 50px;
+}
+header a:link {
+    color: black;
+    text-decoration: none;
+}
+header a:visited {
+    color: black;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    padding: 10px 0;
+}
+nav li {
+    display: inline;
+    padding: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: orange;
+    font-weight: 700;
+}
+#banner {
+    text-align: center;
+    margin: 30px;
+}
+#main {
+    margin-left: 20%;
+    margin-bottom: 100px;
+    width: 70%;
+}
+#main a {
+    text-decoration: none;
+    color: black;
+}
+.text {
+    width: 250px;
+    height: 200px;
+    float: left;
+    padding: 12px;
+}
+#survey {
+    margin-top: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: orange;
+    clear: both;
+    text-align: center;
+}
+#survey form {
+    margin: auto;
+    color: white;
+    padding: 30px;
+}
+textarea {
+    border: none;
+}
+#stname  {
+    width: 300px;
+    border: none;
+}
+.button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    font-size: medium;
+    font-weight: 600;
+    color: lightgray;
+}
+#submit {
+    color: orange;
+}
+footer {
+    text-align: center;
+    line-height: 10px;
+    clear: both;
+    background-color: rgb(245, 244, 244);
+    border-top: 1px solid lightgray;
+    padding: 0 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 12px;
+}
+
+/*contents*/
+
+#contents {
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 60%;
+    padding: 50px;
+}
+#title {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.contents {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 30px;
+}
+span {
+    font-weight: 700;
+}
+iframe {
+    float: right;
+}
+
+/*login*/
+
+#login {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 600px;
+}
+#login div {
+    border: 1px solid lightgray;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+#login form {
+    padding-left: 150px;
+}
+.login {
+    width: 370px;
+    height: 30px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 5px;
+}
+#login a {
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    font-size: small;
+    float: right;
+    padding-right: 150px;
+    margin: 5px;
+}
+#loginbtn {
+    width: 390px;
+    height: 40px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 5px;
+}
